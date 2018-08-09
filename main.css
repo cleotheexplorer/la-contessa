@@ -1,48 +1,3 @@
-@font-face {
-    font-family: BOD_B;
-    src: url(assets/fonts/BOD_B.TTF);
-}
-@font-face {
-    font-family: BOD_BI;
-   	src: url(assets/fonts/BOD_B.TTF);
-}
-@font-face {
-    font-family: BOD_BLAI;
-    src: url(assets/fonts/BOD_B.TTF);
-}
-@font-face {
-    font-family: BOD_BLAR;
-    src: url(assets/fonts/BOD_B.TTF);
-}
-@font-face {
-    font-family: BOD_CB;
-   	src: url(assets/fonts/BOD_B.TTF);
-}
-@font-face {
-    font-family: BOD_CBI;
-    src: url(assets/fonts/BOD_B.TTF);
-}
-@font-face {
-    font-family: BOD_CI;
-    src: url(assets/fonts/BOD_B.TTF);
-}
-@font-face {
-    font-family: BOD_CR;
-    src: url(assets/fonts/BOD_B.TTF);
-}
-
-@font-face {
-    font-family: BOD_I;
-    src: url(assets/fonts/BOD_B.TTF);
-}
-
-@font-face {
-    font-family: BOD_IR;
-    src: url(assets/fonts/BOD_B.TTF);
-}
-
-
-
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -174,8 +129,75 @@ img.headerlogo {
 	text-align:center;
 }
 
-	
+.box5 img{
+	padding:2% 2% 2% 2%;
+	max-width:100%;
+	max-height:auto;
+}
 
+
+.box5 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, min-content);
+	grid-template-areas:
+	"biscotti cleo porky"
+	"crostini griffin nori"
+	"harquin"
+}	
+
+
+figure figcaption{
+	text-align:center;
+}
+
+.our_kittens h1{
+	text-align: center;
+}
+
+.our_kittens{
+	padding-bottom:800px;
+}
+
+
+footer {
+	padding:20px;
+	background:grey;
+	overflow:hidden;
+}
+
+footer li {
+	list-style-type: none;
+  	display: inline-block;
+  	padding-left:10px;
+}
+
+
+
+.box6 {
+	width:60%;
+	display:grid;
+	grid-row: repeat(5, 1fr);
+	grid-template-rows: 1fr;
+	grid-template-areas:
+	"cat_a1 cat_a2 cat_a3 cat_a4 cat_a5"
+}
+
+.box6 img {
+	max-width:100%;
+	max-height:auto;
+
+}
+
+.contact {
+	width:40%;
+	float:left;
+	padding-left: 30px;
+}
+
+.footer_images{
+	width:60%;
+}
 
 
 
