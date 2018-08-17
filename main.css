@@ -67,10 +67,7 @@ img.headerlogo {
 }
 
 
-/*#landing{
-	margin-right:20px;
-	margin-left:20px;
-}*/
+
 
 .box1 img{
 	width:100%;
@@ -206,7 +203,7 @@ footer li a{
 }
 
 footer p {
-	font-family: "majalla_0"
+	font-family: "majalla_0";
 }
 
 
