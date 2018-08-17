@@ -39,11 +39,11 @@
     src: url(assets/fonts/BOD_R.TTF);
 }
 @font-face {
-    font-family: majalla_0;
+    font-family: majalla;
     src: url(assets/fonts/majalla.TTF);
 }
 @font-face {
-    font-family: majallab_0;
+    font-family: majallab;
     src: url(assets/fonts/majallab.TTF);
 }
 
