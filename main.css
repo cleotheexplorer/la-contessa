@@ -24,7 +24,18 @@ img.headerlogo {
 }
 
 #navigation{
-	font-family: "BOD_B";
+	font-family: "majalla_0";
+	overflow: hidden;
+	position:fixed;
+	top:0;
+	width:100%;
+	background-color:white;
+	margin:0px;
+}
+
+#navigation ul{
+	margin:0px;
+	height:90px;
 }
 
 #navigation ul li{
@@ -35,6 +46,10 @@ img.headerlogo {
   vertical-align: middle;
 }
 
+#main{
+	margin-top:70px;
+}
+
 #navigation ul li a{
   text-decoration: none;
   color:black;
@@ -43,6 +58,7 @@ img.headerlogo {
 .left{
 	float:right;
 	margin-right:20px;
+	vertical-align: middle;
 }
 
 .social li a{
@@ -92,13 +108,15 @@ img.headerlogo {
 
 }
 
-.about{
+#about{
 	padding-top: 40px;
 	padding-bottom: 60px;
+	font-family: "majalla_0";
 }
 
-.about h1{
+#about h1{
 	text-align:center;
+
 }
 
 .box4 {
@@ -113,7 +131,7 @@ img.headerlogo {
 .box4 figure:nth-child(2) { grid-area: cat_2; }
 .box4 figure:nth-child(3) { grid-area: cat_3; margin-right:50px;}
 
-.about p {
+#about p {
 	text-align: center;
 	font-size: 25px;
 	font-size: 2vw;
@@ -125,7 +143,13 @@ img.headerlogo {
 	width: 100%;
 }
 
-.our_cats h1{
+
+#our_kittens{
+	font-family: "majalla_0";
+}
+
+#our_kittens h1{
+	font-family: "majalla_0";
 	text-align:center;
 }
 
@@ -137,6 +161,8 @@ img.headerlogo {
 
 
 .box5 {
+	font-family: "majallab_0";
+	font-size:24px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(3, min-content);
@@ -144,6 +170,7 @@ img.headerlogo {
 	"biscotti cleo porky"
 	"crostini griffin nori"
 	"harquin"
+
 }	
 
 
@@ -151,16 +178,9 @@ figure figcaption{
 	text-align:center;
 }
 
-.our_kittens h1{
-	text-align: center;
-}
-
-.our_kittens{
-	padding-bottom:800px;
-}
-
 
 footer {
+	font-family: "BOD_B";
 	padding:20px;
 	background:grey;
 	overflow:hidden;
@@ -170,9 +190,15 @@ footer li {
 	list-style-type: none;
   	display: inline-block;
   	padding-left:10px;
+
+}
+
+footer p {
+	font-family: "majalla_0"
 }
 
 
+	
 
 .box6 {
 	width:60%;
@@ -189,7 +215,7 @@ footer li {
 
 }
 
-.contact {
+#contact {
 	width:40%;
 	float:left;
 	padding-left: 30px;
