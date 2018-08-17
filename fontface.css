@@ -2,42 +2,7 @@
     font-family: BOD_B;
     src: url(assets/fonts/BOD_B.TTF);
 }
-@font-face {
-    font-family: BOD_BI;
-   	src: url(assets/fonts/BOD_BI.TTF);
-}
-@font-face {
-    font-family: BOD_BLAI;
-    src: url(assets/fonts/BOD_BLAI.TTF);
-}
-@font-face {
-    font-family: BOD_BLAR;
-    src: url(assets/fonts/BOD_BLAR.TTF);
-}
-@font-face {
-    font-family: BOD_CB;
-   	src: url(assets/fonts/BOD_CB.TTF);
-}
-@font-face {
-    font-family: BOD_CBI;
-    src: url(assets/fonts/BOD_CBI.TTF);
-}
-@font-face {
-    font-family: BOD_CI;
-    src: url(assets/fonts/BOD_CI.TTF);
-}
-@font-face {
-    font-family: BOD_CR;
-    src: url(assets/fonts/BOD_CR.TTF);
-}
-@font-face {
-    font-family: BOD_I;
-    src: url(assets/fonts/BOD_I.TTF);
-}
-@font-face {
-    font-family: BOD_R;
-    src: url(assets/fonts/BOD_R.TTF);
-}
+
 @font-face {
     font-family: majalla;
     src: url(assets/fonts/majalla.TTF);
