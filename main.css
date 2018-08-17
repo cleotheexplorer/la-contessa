@@ -19,9 +19,10 @@ body{
 }
 
 img.headerlogo {
-	width:200px;
+	width:12vw;
 	height:auto;
 }
+
 
 #navigation{
 	font-family: "majalla_0";
@@ -41,7 +42,7 @@ img.headerlogo {
 #navigation ul li{
   list-style-type: none;
   display: inline-block;
-  font-size:25px;
+  font-size:2vw;
   padding: 20px 10px 10px 20px;
   vertical-align: middle;
 }
@@ -65,8 +66,15 @@ img.headerlogo {
 	color:black;
 }
 
+
+/*#landing{
+	margin-right:20px;
+	margin-left:20px;
+}*/
+
 .box1 img{
 	width:100%;
+
 }
 
 .box2 {
@@ -114,10 +122,6 @@ img.headerlogo {
 	font-family: "majalla_0";
 }
 
-#about h1{
-	text-align:center;
-
-}
 
 .box4 {
 	display: grid;
@@ -148,9 +152,10 @@ img.headerlogo {
 	font-family: "majalla_0";
 }
 
-#our_kittens h1{
+.nav-item {
 	font-family: "majalla_0";
 	text-align:center;
+	font-size: 4vw;
 }
 
 .box5 img{
@@ -176,6 +181,7 @@ img.headerlogo {
 
 figure figcaption{
 	text-align:center;
+	font-size: 2vw;
 }
 
 
@@ -190,6 +196,12 @@ footer li {
 	list-style-type: none;
   	display: inline-block;
   	padding-left:10px;
+
+}
+
+footer li a{
+  text-decoration: none;
+  color:black;
 
 }
 
