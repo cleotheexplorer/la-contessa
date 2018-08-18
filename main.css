@@ -7,7 +7,6 @@ html {
   box-sizing: border-box;
 }
 
-
 figure{
 	margin:0px;
 	padding:0px;
@@ -27,16 +26,17 @@ img.headerlogo {
 #navigation{
 	font-family: "majalla";
 	overflow: hidden;
-	position:fixed;
+	position: fixed;
 	top:0;
 	width:100%;
 	background-color:white;
 	margin:0px;
+	z-index: 1;
 }
 
 #navigation ul{
 	margin:0px;
-	height:90px;
+	height:70px;
 }
 
 #navigation ul li{
@@ -47,14 +47,20 @@ img.headerlogo {
   vertical-align: middle;
 }
 
-#main{
-	margin-top:70px;
-}
-
 #navigation ul li a{
   text-decoration: none;
   color:black;
 }
+
+
+#navigation li a:hover{
+	color:#808080;
+}
+
+#main{
+	margin-top:80px;
+}
+
 
 .left{
 	float:right;
@@ -62,24 +68,22 @@ img.headerlogo {
 	vertical-align: middle;
 }
 
-.social li a{
-	color:black;
-}
-
-
 .box1{
-	max-width:100%;	
-	position: relative;
+	max-width:95%;	
 	margin:auto;
-	/*top:500px;*/
+	position: relative;
+	overflow:show;
 }
-
 
 .box1 img{
 	width:100%;
-
 }
 
+
+.dot-panel{
+	top:-30px;
+	position: relative;
+}
 
 .mySlides{
 	display: none;
@@ -91,7 +95,7 @@ img.headerlogo {
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -70px;
+  margin-top: -80px;
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -124,8 +128,8 @@ img.headerlogo {
 
 .dot {
   cursor: pointer;
-  height: 1.5vw;
-  width: 1.5vw;
+  height: 15px;
+  width: 15px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -158,6 +162,7 @@ img.headerlogo {
 
 
 .box2 {
+	/*max-width: 90%;*/
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr;
@@ -255,7 +260,7 @@ img.headerlogo {
 	"crostini griffin nori"
 	"harquin"
 
-}	
+}
 
 
 figure figcaption{
@@ -269,6 +274,7 @@ footer {
 	padding:20px;
 	background:grey;
 	overflow:hidden;
+	font-size:1.5vw;
 }
 
 footer li {
@@ -301,7 +307,6 @@ footer p {
 .box6 img {
 	max-width:100%;
 	max-height:auto;
-
 }
 
 #contact {
@@ -313,7 +318,5 @@ footer p {
 .footer_images{
 	width:60%;
 }
-
-
 
 
