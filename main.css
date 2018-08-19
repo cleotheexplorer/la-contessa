@@ -69,7 +69,7 @@ img.headerlogo {
 }
 
 .box1{
-	max-width:95%;	
+	/*max-width:95%;	*/
 	margin:auto;
 	position: relative;
 	overflow:show;
@@ -203,6 +203,8 @@ img.headerlogo {
 
 #about{
 	font-family: "majalla";
+	margin-bottom: 20px;
+	/*height:600px;*/
 }
 
 
@@ -210,20 +212,21 @@ img.headerlogo {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr;
+	height:100%;
 	grid-template-areas:
-	"cat_1 cat_2 cat_3"
+	"cat_1 cat_2 cat_3";
 }
 
-.box4 figure:nth-child(1) { grid-area: cat_1; margin-left:50px; } 
-.box4 figure:nth-child(2) { grid-area: cat_2; }
-.box4 figure:nth-child(3) { grid-area: cat_3; margin-right:50px;}
+.box4 figure:nth-child(1) { grid-area: cat_1; height:100%; margin-left:50px;} 
+.box4 figure:nth-child(2) { grid-area: cat_2; height:100%; }
+.box4 figure:nth-child(3) { grid-area: cat_3; height:100%; margin-right:50px;}
 
 #about p {
+	margin-top:0px;
 	text-align: center;
-	font-size: 25px;
-	font-size: 2vw;
-	margin-left: 50px;
-	padding-right: 50px;
+	font-size: 3vw;
+	margin-left: 70px;
+	padding-right: 70px;
 }
 
 .wallpaper img{
@@ -235,6 +238,19 @@ img.headerlogo {
 	font-family: "majalla";
 }
 
+hr{
+	width:20%;
+	margin:0px;
+	position:relative;
+	top:-10px;
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0; 
+}
+
 .nav-item {
 	font-family: "majalla";
 	text-align:center;
@@ -242,30 +258,37 @@ img.headerlogo {
 	padding-top: 20px;
 }
 
-.box5 img{
+
+
+.box-template img{
 	padding:2% 2% 2% 2%;
 	max-width:100%;
 	max-height:auto;
 }
 
 
-.box5 {
+.box-template {
 	font-family: "majallab";
-	font-size:24px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(3, min-content);
-	grid-template-areas:
-	"biscotti cleo porky"
-	"crostini griffin nori"
-	"harquin"
-
+	grid-template-rows: repeat(2, min-content);
+/*	grid-template-areas:
+	"ravioli fettuccine linguine"
+	"ravioli_1, fettuccine_1, linguine_1";*/
 }
 
 
 figure figcaption{
 	text-align:center;
+	font-size: 2.5vw;
+}
+
+figure p {
+	margin-top:0px;
 	font-size: 2vw;
+	margin-left:0.5em;
+	margin-right:0.5em;
+	text-align: center;
 }
 
 
@@ -295,7 +318,10 @@ footer p {
 }
 
 
-.box6 {
+.box8 {
+	/*top:150px;*/
+	/*position:relative;*/
+	margin-top:15%;
 	width:60%;
 	display:grid;
 	grid-row: repeat(5, 1fr);
@@ -304,7 +330,7 @@ footer p {
 	"cat_a1 cat_a2 cat_a3 cat_a4 cat_a5"
 }
 
-.box6 img {
+.box8 img {
 	max-width:100%;
 	max-height:auto;
 }
@@ -318,5 +344,7 @@ footer p {
 .footer_images{
 	width:60%;
 }
+
+
 
 
