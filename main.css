@@ -81,7 +81,7 @@ img.headerlogo {
 
 
 .dot-panel{
-	top:-30px;
+	top:-40px;
 	position: relative;
 }
 
@@ -234,7 +234,7 @@ img.headerlogo {
 }
 
 
-#our_kittens{
+#available_kittens{
 	font-family: "majalla";
 }
 
@@ -272,9 +272,6 @@ hr{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(2, min-content);
-/*	grid-template-areas:
-	"ravioli fettuccine linguine"
-	"ravioli_1, fettuccine_1, linguine_1";*/
 }
 
 
@@ -285,8 +282,13 @@ hr{
 
 .inner-box-template img{
 	padding:2% 2% 2% 2%;
-	max-width:100%;
-	max-height:auto;
+	height:200px;
+	object-fit: cover;
+
+}
+
+.photo{
+	grid-area: photo;
 }
 
 
@@ -337,7 +339,7 @@ footer p {
 .box8 {
 	/*top:150px;*/
 	/*position:relative;*/
-	margin-top:15%;
+	margin-top:10%;
 	width:60%;
 	display:grid;
 	grid-row: repeat(5, 1fr);
@@ -359,6 +361,30 @@ footer p {
 
 .footer_images{
 	width:60%;
+}
+
+@media(max-width: 768px) {
+	.inner-box-template img{
+		padding:2% 2% 2% 2%;
+		/*width:100%;*/
+		height:100px;
+		object-fit: cover;
+
+	}
+
+	img.headerlogo {
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 50%;
+	}
+
+	.left{
+		display:block;
+	}
+
+
+
 }
 
 
