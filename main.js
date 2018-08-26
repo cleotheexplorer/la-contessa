@@ -59,3 +59,59 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
 }
+
+
+
+
+function display_modal(container_class){
+  var modal = document.getElementById('myModal')
+  var modalImg = document.getElementById('img01')
+  var container = document.getElementsByClassName(container_class)
+  var captionText = document.getElementById("caption");
+  for (let i = 0; i < container.length; i++){
+    var grid_images = container[i].getElementsByTagName('img')
+
+    for (let j = 0; j < grid_images.length; j++){
+      // console.log(grid_images[j].src)
+      grid_images[j].onclick = function(){
+        modal.style.display = "block";
+        // console.log(this.src)
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+
+      }
+
+    }
+      var span = document.getElementsByClassName("close")[0];
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+  }
+
+
+}
+
+display_modal("box2")
+display_modal("box-template")
+
+
+
+// // Get the modal
+// var modal = document.getElementById('myModal');
+
+// // Get the image and insert it inside the modal - use its "alt" text as a caption
+// var img = document.getElementById('myImg');
+// var modalImg = document.getElementById("img01");
+// var captionText = document.getElementById("caption");
+// img.onclick = function(){
+//     modal.style.display = "block";
+//     modalImg.src = this.src;
+// }
+
+// // Get the <span> element that closes the modal
+// var span = document.getElementsByClassName("close")[0];
+
+// // When the user clicks on <span> (x), close the modal
+// span.onclick = function() { 
+//   modal.style.display = "none";
+// }
