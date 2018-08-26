@@ -389,9 +389,6 @@ footer p {
 
 	}
 
-	#main{
-		margin-top:0px;
-	}
 
 	.box-template {
 		font-family: "majallab";
@@ -407,6 +404,8 @@ footer p {
 	#navigation {
 		height:70px;
 	}
+
+	.box1
 
 	img.headerlogo {
 	    width: 50%;
