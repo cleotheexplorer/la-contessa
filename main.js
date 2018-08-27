@@ -61,34 +61,25 @@ function showSlides(n) {
 }
 
 
-
-
 function display_modal(container_class){
   var modal = document.getElementById('myModal')
   var modalImg = document.getElementById('img01')
   var container = document.getElementsByClassName(container_class)
   var captionText = document.getElementById("caption");
-  for (let i = 0; i < container.length; i++){
-    var grid_images = container[i].getElementsByTagName('img')
-
-    for (let j = 0; j < grid_images.length; j++){
-      // console.log(grid_images[j].src)
+  for (var a = 0; a < container.length; a++){
+    var grid_images = container[a].getElementsByTagName('img')
+    for (var j = 0; j < grid_images.length; j++){
       grid_images[j].onclick = function(){
         modal.style.display = "block";
-        // console.log(this.src)
         modalImg.src = this.src;
         captionText.innerHTML = this.alt;
-
       }
-
     }
-      var span = document.getElementsByClassName("close")[0];
-      span.onclick = function() { 
-        modal.style.display = "none";
-      }
   }
-
-
+  var span = document.getElementsByClassName("close")[0];
+  span.onclick = function() { 
+    modal.style.display = "none";
+  }
 }
 
 display_modal("box2")

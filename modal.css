@@ -17,7 +17,7 @@
 .modal-content {
     margin: auto;
     display: block;
-    width:50%;
+    width:40%;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -28,7 +28,7 @@
     text-align: center;
     color: #ccc;
     font-family: "majallab";
-    font-size: 2.5vw;
+    font-size: 3vw;
     padding: 10px 0;
     height: 150px;
 }
