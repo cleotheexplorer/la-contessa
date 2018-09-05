@@ -271,6 +271,61 @@ figure figcaption{
 }
 
 
+
+.contact-form {
+	font-size: 2.5vw;
+	margin-left:5vw;
+	margin-right:5vw;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#contact h4 {
+	margin-left:5%;
+	margin-right:5%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 2vw;
+}
+
+.contact-form label{
+	font-size: 3vw;
+}
+
+.contact-form input{
+	font-size: 1.5vw;
+	width:80%;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #D3D3D3;
+    opacity: 1; /* Firefox */
+    font-family:'Amiri'
+}
+
+.contact-form textarea {
+	font-size: 1.5vw;
+	height: 12vw;
+	border: 1px solid grey;
+	border-radius: 5px;
+	width:100%;
+}
+
+.contact-form button {
+	font-size: 1.8vw;
+	margin-left:80%;
+	background-color: black; /* Green */
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 1vw 2vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
 footer {
 	margin-top:10vh;
 	padding-left:5vw;
