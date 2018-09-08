@@ -1,7 +1,4 @@
-html {
-  font-size: 100%;
-  box-sizing: border-box;
-}
+
 
 * {
   box-sizing: border-box;
@@ -19,6 +16,10 @@ body{
 img.headerlogo {
 	width:13vw;
 	height:auto;
+}
+
+a {
+	text-decoration: none;
 }
 
 
@@ -50,7 +51,6 @@ img.headerlogo {
 }
 
 .navigation ul li a{
-  text-decoration: none;
   color:black;
 }
 
@@ -62,7 +62,6 @@ img.headerlogo {
 .main{
 	margin-top:12vh;
 	font-family: "majalla";
-
 }
 
 
@@ -200,13 +199,18 @@ img.headerlogo {
 .box4 figure:nth-child(2) { grid-area: cat_2; height:100%; }
 .box4 figure:nth-child(3) { grid-area: cat_3; height:100%; margin-right:10vw;}
 
-#about p {
+.about p {
 	margin-top:0px;
 	text-align: center;
 	font-size: 2.5vw;
-	margin-left: 15vw;
-	margin-right: 15vw;
+	margin-left: 14vw;
+	margin-right: 14vw;
 }
+
+.about span a{
+	font-size: 1.5vw;
+}
+
 
 .wallpaper img{
 	width: 100%;
@@ -424,8 +428,12 @@ footer li a{
 		display:none;
 	}
 
-	#about p {
+	.about p {
 		font-size: 3vw;
+	}
+
+	.about span {
+		font-size: 1vw;
 	}
 	
 	.box-template figure p {
