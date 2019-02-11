@@ -271,10 +271,9 @@ a {
 }
 
 
-/*.sold-banner h2{
+.sold-banner h2{
 	font-family: Helvetica, Verdana;
     color: white;
-    z-index: 0;
     padding:1vw;
     font-size: 1.5vw;
     background-color:black;
@@ -293,7 +292,8 @@ a {
     left:12%;
     transform: rotate(-40deg);
     bottom: 0px;
-    z-index: 200;
+    z-index: 1;
+   	object-fit:fill;
 
 }
 
@@ -307,7 +307,8 @@ a {
 
 .rav img{
 	z-index: 1;
-}*/
+	object-fit:fill;
+}
 
 
 figure figcaption{
