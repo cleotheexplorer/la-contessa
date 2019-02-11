@@ -11,6 +11,8 @@ figure{
 
 body{
 	margin:0px;
+	margin-left:7%;
+	margin-right:7%;
 }
 
 img.headerlogo {
@@ -28,11 +30,10 @@ a {
 	overflow: hidden;
 	position: fixed;
 	top:0;
-	width:100%;
+	width:86%;
 	height:12vh;
 	background-color:white;
-	margin:0px;
-	z-index: 1;
+	z-index: 200;
 	-webkit-box-shadow:0px 1px 1px #C0C0C0;
  	-moz-box-shadow:0px 1px 1px #C0C0C0;
  	box-shadow:0px 1px 1px #C0C0C0;
@@ -195,22 +196,22 @@ a {
 	"cat_1 cat_2 cat_3";
 }
 
-.box4 figure:nth-child(1) { grid-area: cat_1; height:100%; margin-left:10vw;} 
+.box4 figure:nth-child(1) { grid-area: cat_1; height:100%; margin-left:8vw;} 
 .box4 figure:nth-child(2) { grid-area: cat_2; height:100%; }
-.box4 figure:nth-child(3) { grid-area: cat_3; height:100%; margin-right:10vw;}
+.box4 figure:nth-child(3) { grid-area: cat_3; height:100%; margin-right:8vw;}
 
 .about p {
 	margin-top:0px;
 	text-align: center;
-	font-size: 2.5vw;
-	margin-left: 14vw;
-	margin-right: 14vw;
+	font-size: 1.5vw;
+	margin-left: 13vw;
+	margin-right: 13vw;
 }
 
 
 .about span a, .about span a:visited{
 	color:#0645AD;
-	font-size: 2.7vw;
+	font-size: 1.5vw;
 }
 
 
@@ -268,6 +269,45 @@ a {
     height:15vw;
     object-fit: cover;
 }
+
+
+/*.sold-banner h2{
+	font-family: Helvetica, Verdana;
+    color: white;
+    z-index: 0;
+    padding:1vw;
+    font-size: 1.5vw;
+    background-color:black;
+    border: 1px solid grey;
+    opacity: 0.4;
+    width:150%;
+    text-align: center;
+
+}
+
+.sold-banner{
+	position: absolute;
+	font-family: Verdana, Geneva, sans-serif;
+    color: #FFF;
+    height:62%;
+    left:12%;
+    transform: rotate(-40deg);
+    bottom: 0px;
+    z-index: 200;
+
+}
+
+.rav{
+	position:relative;
+}
+
+.rav-fig{
+	z-index:20;
+}
+
+.rav img{
+	z-index: 1;
+}*/
 
 
 figure figcaption{
@@ -344,7 +384,9 @@ footer {
 	padding-left:5vw;
 	padding-right:5vw;
 	padding-bottom:5vw;
-	background:#A0A0A0;
+	/*#darksalmon*/
+	background:#E9967A; 
+
 	overflow:hidden;
 	font-size:2vw;
 }

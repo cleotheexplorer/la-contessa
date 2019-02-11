@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-	<!-- Add analytics tracking script -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125385755-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+    <!-- Add analytics tracking script -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125385755-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-	  gtag('config', 'UA-125385755-1');
-	</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-	<!-- a viewport declaration which does not disable zooming -->
+        gtag('config', 'UA-125385755-1');
+    </script>
+
+    <!-- a viewport declaration which does not disable zooming -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- a non-blocking base64-encoded font resource -->
     <!-- a non-blocking stylesheet -->
@@ -21,325 +25,335 @@
     <link rel="stylesheet" href="main.css" media="print" onload="if(media!='all')media='all'">
     <link rel="stylesheet" href="modal.css" media="print" onload="if(media!='all')media='all'">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <noscript><link rel="stylesheet" href="main.css" media="print"></noscript>
+    <noscript>
+        <link rel="stylesheet" href="main.css" media="print">
+    </noscript>
     <link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
-
-	<title>La Contessa Cattery</title>
+    <title>La Contessa Cattery</title>
 </head>
+
 <body>
 
-	<header>
-		<nav class="navigation">
-			<ul>
-				<li><img class="headerlogo" src="assets/logos/la_contessa_logo.png" alt=""></li>
-				<div class="left">
-					<li><a href="#landing">HOME</a></li>
-					<li><a href="#about">ABOUT</a></li>
-					<li><a href="#males">MALES</a></li>
-					<li><a href="#females">FEMALES</a></li>
-					<li><a href="#available_kittens">AVAILABLE KITTENS</a></li>
-					<li><a href="#contact">CONTACT</a></li>
-					<li><a href="https://www.facebook.com/lacontessacattery/" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
-	            	<li><a href="https://www.instagram.com/cleotheexplorer/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-				</div>
+    <header>
+        <nav class="navigation">
+            <ul>
+                <li><img class="headerlogo" src="assets/logos/la_contessa_logo.png" alt=""></li>
+                <div class="left">
+                    <li><a href="#landing">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#males">Males</a></li>
+                    <li><a href="#females">Females</a></li>
+                    <li><a href="#available_kittens">Available Kittens</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://www.facebook.com/lacontessacattery/" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
+                    <li><a href="https://www.instagram.com/cleotheexplorer/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                </div>
 
-			</ul>	
-		</nav>
-	</header>
-	
-	<main class="main">
+            </ul>
+        </nav>
+    </header>
 
-		<div id="landing">
-			<div class="box1">
-				<div class="mySlides fade">
-					<img class="slides" src="assets/gallery/harquin_close_up-min.jpg" alt="">
-				</div>
-				<div class="mySlides fade">
-					<img class="slides" src="assets/gallery/griffin_harquin-min.jpg" alt="">
-				</div>
-				<div class="mySlides fade">
-					<img class="slides" src="assets/gallery/crustini_biscotti-min.jpg" alt="">
-				</div>
-					<div class="mySlides fade">
-					<img class="slides" src="assets/gallery/queen_and_princess-min.jpg" alt="">
-				</div>
-				
-				
-				<a class="next" onclick="plusSlides(1)">&#10095;</a>
-				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-				
-				<div class="dot-panel" style="text-align:center">
-					<span class="dot" onclick="currentSlide(1)"></span> 
-		  			<span class="dot" onclick="currentSlide(2)"></span> 
-		  			<span class="dot" onclick="currentSlide(3)"></span> 
-		  			<span class="dot" onclick="currentSlide(4)"></span> 			
-				</div>	
-			</div>
-			
-			<div class="box2">
-			    <figure><img class="lazyload" data-src="assets/gallery/crostini-min.jpg" alt=""></figure>	
- 				<figure><img class="lazyload" data-src="assets/gallery/harquin_window-min.jpg" alt=""></figure>	
-				<figure><img class="lazyload" data-src="assets/gallery/griffin_gigil-min.jpg" alt=""></figure>
- 				<figure><img class="lazyload" data-src="assets/gallery/noriko_stretching-min.jpg" alt=""></figure>		
-			</div>
+    <main class="main">
 
-			<div class="box3">
-				<figure><img class="lazyload" data-src="assets/logos/Full_Gold.png" alt=""></figure>
-			</div>	
-		</div>
-		
+        <div id="landing">
+            <div class="box1">
+                <div class="mySlides fade">
+                    <img class="slides" src="assets/gallery/harquin_close_up-min.jpg" alt="">
+                </div>
+                <div class="mySlides fade">
+                    <img class="slides" src="assets/gallery/griffin_harquin-min.jpg" alt="">
+                </div>
+                <div class="mySlides fade">
+                    <img class="slides" src="assets/gallery/crustini_biscotti-min.jpg" alt="">
+                </div>
+                <div class="mySlides fade">
+                    <img class="slides" src="assets/gallery/queen_and_princess-min.jpg" alt="">
+                </div>
 
-		<div id="about" class="about">
-			<h1 class="nav-item">ABOUT US</h1>
-			
-			<p style="margin-bottom:0px;">
-				<span style="font-size: 3.5vw; margin-right: 10px;">Hi!</span>We are a small and cageless CFA registered cattery in Manila specializing in tabbies and bicolor Exotic Shorthair cats.
-			</p>
-			<div class="box4">
-				<figure><img class="lazyload" data-src="assets/revised_cats/Cats-01-min.png" alt=""></figure>	
-				<figure><img class="lazyload" data-src="assets/revised_cats/Cats-02-min.png" alt=""></figure>
-				<figure><img class="lazyload" data-src="assets/revised_cats/Cats-03-min.png" alt=""></figure>	
-			</div>
-			
-			<p>
-				Our cats are family members and they live freely in our home 🏠. They are pedigreed and registered with the CFA system.
-				<br>
-				You can see them on <span><a href="https://www.instagram.com/cleotheexplorer" target="_blank">www.instagram.com/cleotheexplorer</a></span> where we post daily pictures of them. 
-				<br>
-				If you'd like to inquire, please send a private message or an email with your name and maybe tell us a bit about yourself and your home.
-			</p>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 
-		</div>
-		
+                <div class="dot-panel" style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+            </div>
 
-		<div class="wallpaper">
-			<img class="lazyload" data-src="assets/revised_cats/Pattern 3-min.jpg" alt="">
-		</div>
-		
-		
+            <div class="box2">
+                <figure><img class="lazyload" data-src="assets/gallery/crostini-min.jpg" alt=""></figure>
+                <figure><img class="lazyload" data-src="assets/gallery/harquin_window-min.jpg" alt=""></figure>
+                <figure><img class="lazyload" data-src="assets/gallery/griffin_gigil-min.jpg" alt=""></figure>
+                <figure><img class="lazyload" data-src="assets/gallery/noriko_stretching-min.jpg" alt=""></figure>
+            </div>
 
-		<div id="males">
-			<h1 class="nav-item">MALES</h1>
-			<div class="box-template">
-				<figure>
-					<figcaption>BISCOTTI</figcaption>
+            <div class="box3">
+                <figure><img class="lazyload" data-src="assets/logos/Full_Gold.png" alt=""></figure>
+            </div>
+        </div>
+
+        <div id="about" class="about">
+            <h1 class="nav-item">About Us</h1>
+
+            <p style="margin-bottom:0px;">
+               Hi! We are a small and cageless CFA registered cattery in Manila specializing in tabbies and bicolor Exotic Shorthair cats.
+            </p>
+            <div class="box4">
+                <figure><img class="lazyload" data-src="assets/revised_cats/Cats-01-min.png" alt=""></figure>
+                <figure><img class="lazyload" data-src="assets/revised_cats/Cats-02-min.png" alt=""></figure>
+                <figure><img class="lazyload" data-src="assets/revised_cats/Cats-03-min.png" alt=""></figure>
+            </div>
+
+            <p>
+                Our cats are family members and they live freely in our home 🏠. They are pedigreed and registered with the CFA system.
+                <br> You can see them on <span><a href="https://www.instagram.com/cleotheexplorer" target="_blank">www.instagram.com/cleotheexplorer</a></span> where we post daily pictures of them.
+                <br> If you'd like to inquire, please send a private message or an email with your name and maybe tell us a bit about yourself and your home.
+            </p>
+
+        </div>
+
+        <div class="wallpaper">
+            <img class="lazyload" data-src="assets/revised_cats/Pattern 3-min.jpg" alt="">
+        </div>
+
+        <div id="males">
+            <h1 class="nav-item">Males</h1>
+            <div class="box-template">
+                <figure>
+                    <figcaption>Biscotti</figcaption>
+
+                    <img class="lazyload" data-src="assets/males/biscotti/biscotti.jpg" alt="BISCOTTI">
+
+                    <div class="inner-box-template">
+
+                        <img class="lazyload" data-src="assets/males/biscotti/biscotti_1.jpg" alt="BISCOTTI">
+                        <img class="lazyload" data-src="assets/males/biscotti/biscotti_2.jpg" alt="BISCOTTI">
+                        <img class="lazyload" data-src="assets/males/biscotti/biscotti_3.jpg" alt="BISCOTTI">
+
+                    </div>
+
+                </figure>
+
+                <figure>
+                    <figcaption>Porcini</figcaption>
+                    <img class="lazyload" data-src="assets/males/porcini/porcini_3.jpg" alt="PORCINI">
+
+                    <div class="inner-box-template">
+                        <img class="lazyload" data-src="assets/males/porcini/porcini_1.jpg" alt="PORCINI">
+                        <img class="lazyload" data-src="assets/males/porcini/porcini_2.jpg" alt="PORCINI">
+                        <img class="lazyload" data-src="assets/males/porcini/porcini.jpg" alt="PORCINI">
+                    </div>
+
+                </figure>
+                <!-- Uncomment for Griffin -->
 
 
-					<img class="lazyload" data-src="assets/males/biscotti/biscotti.jpg" alt="BISCOTTI">
-					
-					<div class="inner-box-template">
+<!--                 <figure>
+                    <figcaption>Griffin</figcaption>
+                    <img class="lazyload" data-src="assets/males/griffin/griffin.jpg" alt="GRIFFIN">
 
-						<img class="lazyload" data-src="assets/males/biscotti/biscotti_1.jpg" alt="BISCOTTI">
-						<img class="lazyload" data-src="assets/males/biscotti/biscotti_2.jpg" alt="BISCOTTI">
-						<img class="lazyload" data-src="assets/males/biscotti/biscotti_3.jpg" alt="BISCOTTI">
+                    <div class="inner-box-template">
+                        <img class="lazyload" data-src="assets/males/griffin/griffin_1.jpg" alt="GRIFFIN">
+                        <img class="lazyload" data-src="assets/males/griffin/griffin_2.jpg" alt="GRIFFIN">
+                        <img class="lazyload" data-src="assets/males/griffin/griffin_3.jpg" alt="GRIFFIN">
+                    </div>
+                </figure> -->
+                <figure>
 
-					</div>
+                    <figcaption>Harquin</figcaption>
+                    <img class="lazyload" data-src="assets/males/harquin/harquin.jpg" alt="HARQUIN">
 
-				</figure>
-				
-				<figure>
-					<figcaption>PORCINI</figcaption>
-					<img class="lazyload" data-src="assets/males/porcini/porcini_3.jpg" alt="PORCINI">
+                    <div class="inner-box-template">
+                        <img class="lazyload" data-src="assets/males/harquin/harquin_1.jpg" alt="HARQUIN">
+                        <img class="lazyload" data-src="assets/males/harquin/harquin_2.jpg" alt="HARQUIN">
+                        <img class="lazyload" data-src="assets/males/harquin/harquin_3.jpg" alt="HARQUIN">
 
+                    </div>
+                </figure>
 
-					<div class="inner-box-template">
-						<img class="lazyload" data-src="assets/males/porcini/porcini_1.jpg" alt="PORCINI">
-						<img class="lazyload" data-src="assets/males/porcini/porcini_2.jpg" alt="PORCINI">
-						<img class="lazyload" data-src="assets/males/porcini/porcini.jpg" alt="PORCINI">
-					</div>
-					
-				</figure>
-				
-				<figure>
-					<figcaption>GRIFFIN</figcaption>
-					<img class="lazyload" data-src="assets/males/griffin/griffin.jpg" alt="GRIFFIN">
+                <!-- Uncomment for Crostini -->
 
-					<div class="inner-box-template">
-						<img class="lazyload" data-src="assets/males/griffin/griffin_1.jpg" alt="GRIFFIN">
-						<img class="lazyload" data-src="assets/males/griffin/griffin_2.jpg" alt="GRIFFIN">
-						<img class="lazyload" data-src="assets/males/griffin/griffin_3.jpg" alt="GRIFFIN">
-					</div>	
-				</figure>
-				<figure>
-					<figcaption>HARQUIN</figcaption>
-					<img class="lazyload" data-src="assets/males/harquin/harquin.jpg" alt="HARQUIN">
-					
-					<div class="inner-box-template">
-						<img class="lazyload" data-src="assets/males/harquin/harquin_1.jpg" alt="HARQUIN">
-						<img class="lazyload" data-src="assets/males/harquin/harquin_2.jpg" alt="HARQUIN">
-						<img class="lazyload" data-src="assets/males/harquin/harquin_3.jpg" alt="HARQUIN">
-					
-					</div>
-				</figure>
+<!--                 <figure>
+                    <figcaption>CROSTINI</figcaption>
+                    <img class="lazyload" data-src="assets/males/crostini/crostini.jpg" alt="CROSTINI">
 
-				<figure>
-					<figcaption>CROSTINI</figcaption>
-					<img class="lazyload" data-src="assets/males/crostini/crostini.jpg" alt="CROSTINI">
+                    <div class="inner-box-template">
+                        <img class="lazyload" data-src="assets/males/crostini/crostini_1.jpg" style="object-position: 0px 0px;" alt="CROSTINI">
+                        <img class="lazyload" data-src="assets/males/crostini/crostini_2.jpg" alt="CROSTINI">
+                        <img class="lazyload" data-src="assets/males/crostini/crostini_3.jpg" alt="CROSTINI">
+                    </div>
+                </figure> -->
+            </div>
+        </div>
 
-					<div class="inner-box-template">
-						<img class="lazyload" data-src="assets/males/crostini/crostini_1.jpg" style="object-position: 0px 0px;" alt="CROSTINI">
-						<img class="lazyload" data-src="assets/males/crostini/crostini_2.jpg" alt="CROSTINI">
-						<img class="lazyload" data-src="assets/males/crostini/crostini_3.jpg" alt="CROSTINI">
-					</div>
-				</figure>
-			</div>
-		</div>
-		
+        <div id="females">
+            <h1 class="nav-item">Females</h1>
+            <div class="box-template">
+                <figure>
+                    <figcaption>Cleo</figcaption>
+                    <img class="lazyload" data-src="assets/females/cleo/cleo.jpg" alt="CLEO">
 
-		<div id="females">
-			<h1 class="nav-item">FEMALES</h1>
-			<div class="box-template">
-				<figure>
-					<figcaption>CLEO</figcaption>
-					<img class="lazyload" data-src="assets/females/cleo/cleo.jpg" alt="CLEO">
-					
-					<div class="inner-box-template">
-						<img class="lazyload" data-src="assets/females/cleo/cleo_1.jpg" alt="CLEO">
-						<img class="lazyload" data-src="assets/females/cleo/cleo_2.jpg" alt="CLEO">
-						<img class="lazyload" data-src="assets/females/cleo/cleo_3.jpg" alt="CLEO">
-					</div>
-				</figure>
-					
-				<figure>
-					<figcaption>NORIKO</figcaption>
-					<img class="lazyload" data-src="assets/females/noriko/noriko.jpg" alt="NORIKO">
+                    <div class="inner-box-template">
+                        <img class="lazyload" data-src="assets/females/cleo/cleo_1.jpg" alt="CLEO">
+                        <img class="lazyload" data-src="assets/females/cleo/cleo_2.jpg" alt="CLEO">
+                        <img class="lazyload" data-src="assets/females/cleo/cleo_3.jpg" alt="CLEO">
+                    </div>
+                </figure>
 
-					<div class="inner-box-template">
-						<img class="lazyload" data-src="assets/females/noriko/noriko_1.jpg" alt="NORIKO">
-						<img class="lazyload" data-src="assets/females/noriko/noriko_2.jpg" alt="NORIKO">
-						<img class="lazyload" data-src="assets/females/noriko/noriko_3.jpg" alt="NORIKO">
-					</div>
-					
-				</figure>
-				
-				<figure>
-					<figcaption>CINNAMON</figcaption>
-					<img class="lazyload" data-src="assets/females/cinnamon/cinnamon.jpg" alt="CINNAMON">
+                <!-- Uncomment for noriko -->
 
-					<div class="inner-box-template">
-						<img class="lazyload" data-src="assets/females/cinnamon/cinnamon_1.jpg" alt="CINNAMON">
-						<img class="lazyload" data-src="assets/females/cinnamon/cinnamon_2.jpg" alt="CINNAMON">
-						<img class="lazyload" data-src="assets/females/cinnamon/cinnamon_3.jpg" alt="CINNAMON">
-					</div>
+<!--                 <figure>
+                    <figcaption>Noriko</figcaption>
+                    <img class="lazyload" data-src="assets/females/noriko/noriko.jpg" alt="NORIKO">
 
-					
-				</figure>
-				<figure>
-					<figcaption>PONZU</figcaption>
-					<img class="lazyload" data-src="assets/females/ponzu/ponzu.jpg" alt="PONZU">
+                    <div class="inner-box-template">
+                        <img class="lazyload" data-src="assets/females/noriko/noriko_1.jpg" alt="NORIKO">
+                        <img class="lazyload" data-src="assets/females/noriko/noriko_2.jpg" alt="NORIKO">
+                        <img class="lazyload" data-src="assets/females/noriko/noriko_3.jpg" alt="NORIKO">
+                    </div>
 
-					<div class="inner-box-template">
-						<img class="lazyload" data-src="assets/females/ponzu/ponzu_1.jpg" alt="PONZU">
-						<img class="lazyload" data-src="assets/females/ponzu/ponzu_2.jpg" alt="PONZU">
-					</div>
-					
-				</figure>
-			
+                </figure> -->
 
-				<!-- <figure>
+                <figure>
+                    <figcaption>Cinnamon</figcaption>
+                    <img class="lazyload" data-src="assets/females/cinnamon/cinnamon.jpg" alt="CINNAMON">
+
+                    <div class="inner-box-template">
+                        <img class="lazyload" data-src="assets/females/cinnamon/cinnamon_1.jpg" alt="CINNAMON">
+                        <img class="lazyload" data-src="assets/females/cinnamon/cinnamon_2.jpg" alt="CINNAMON">
+                        <img class="lazyload" data-src="assets/females/cinnamon/cinnamon_3.jpg" alt="CINNAMON">
+                    </div>
+
+                </figure>
+                <figure>
+                    <figcaption>Ponzu</figcaption>
+                    <img class="lazyload" data-src="assets/females/ponzu/ponzu.jpg" alt="PONZU">
+
+                    <div class="inner-box-template">
+                        <img class="lazyload" data-src="assets/females/ponzu/ponzu_1.jpg" alt="PONZU">
+                        <img class="lazyload" data-src="assets/females/ponzu/ponzu_2.jpg" alt="PONZU">
+                    </div>
+
+                </figure>
+
+                <!-- <figure>
 					<figcaption>AZUKI</figcaption>
 					<img class="lazyload" data-src="assets/females/azuki/azuki.jpg" alt="">
-					
+
 				</figure> -->
-			</div>
-		</div>
+            </div>
+        </div>
 
+        <div id="available_kittens">
+            <h1 class="nav-item">Available Kittens</h1>
+            <div class="box-template">
+                <figure >
 
-		<div id="available_kittens">
-			<h1 class="nav-item">AVAILABLE KITTENS</h1>
-			<div class="box-template">
-				<figure>
-					<img class="lazyload" data-src="assets/kittens/ravioli_4-min.jpg" alt="RAVIOLI">
-					<!-- <img class="lazyload" data-src="assets/kittens/ravioli_2.jpg" alt=""> -->
-					<figcaption style="margin-top:0px;">RAVIOLI</figcaption>
-					<p>male<br>brown tabby and white</p>
-				</figure>
-					
-				<figure>
-					<img class="lazyload" data-src="assets/kittens/fettuccine_4-min.jpg" alt="FETTUCCINE">
-					<!-- <img class="lazyload" data-src="assets/kittens/fettuccine_4.jpg" alt=""> -->
-					<figcaption style="margin-top:0px;">FETTUCCINE</figcaption>
-					<p>male<br>red tabby and white</p>
-				</figure>
-				
-				<figure>
-					<img class="lazyload" data-src="assets/kittens/linguine-min.jpg" alt="LINGUINE">
-					<!-- <img class="lazyload" data-src="assets/kittens/linguine.jpg" alt=""> -->
-					<figcaption style="margin-top:0px;">LINGUINE</figcaption>
-					<p>female<br>red tabby and white</p>
-				</figure>
+                	<div class="rav">
+                    	<img class="lazyload" data-src="assets/kittens/ravioli-foreverhome.jpg" alt="RAVIOLI">
+<!-- 	                    <div class="sold-banner">
 
-			</div>
-		</div>
-		
+			                <h2>LIVES IN HIS FOREVER HOME</h2>
 
-		<div id="contact" class="contact">
-			<h1 class="nav-item" style="margin-top:3vw;">CONTACT US</h1>
-			
-			<h4>*If you're interested in a kitten, or you have any inquiries please use the form below.</h4>	 
-			<form class="contact-form" method="POST" action="https://formspree.io/cleotheexplorer@gmail.com">
-				
-				<div class="contact-details">
-					  <label for="n">Your name*</label><br>
-		          	  <input type="text" placeholder=" John Doe" id="n" name="name" required><br>
-					  
-					  <label for="e">Your email*</label><br>
-		              <input type="email" placeholder=" test@mailbox.com" id="e" name="email" required><br>
-
-		 			  <label for="c">Contact number*</label><br>
-		          	  <input type="text" placeholder=" 0999-999-9999" id="c" name="contact_number" required><br>
-				</div>
-				
-				<div class="message">
-					  <label for="m">Message*</label><br>
-					  <textarea name="message" placeholder=" Your message" id="m"></textarea>
-					  <br>	
-					  <button type="submit">Send</button>		
-				</div>
-          	   
-			</form>
-
-		</div>
-
+			         	</div> -->
 	
-		<!-- The Modal -->
-		<div id="myModal" class="modal">
-		  <!-- The Close Button -->
-		  <span class="close">&times;</span>
-		  <!-- Modal Content (The Image) -->
-		  <img class="modal-content" id="img01">
-  	      <!-- Modal Caption (Image Text) -->
-		  <div id="caption"></div>
-		</div>
-	</main>
-	<script
-	  src="https://code.jquery.com/jquery-3.3.1.js"
-	  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-	  crossorigin="anonymous">  
-	</script>
-	<script src="main.js"></script>
-	<script src="https://unpkg.com/lazysizes@4.1.1/lazysizes.js"></script>
+	                    <figcaption style="margin-top:0px;">Ravioli</figcaption>
+                    	<p>male
+                        	<br>brown tabby and white</p>
+
+                	</div>
+
+                </figure>
+
+                <figure>
+                    <img class="lazyload" data-src="assets/kittens/fettuccine_4-min.jpg" alt="FETTUCCINE">
+                    <!-- <img class="lazyload" data-src="assets/kittens/fettuccine_4.jpg" alt=""> -->
+                    <figcaption style="margin-top:0px;">Fettuccine</figcaption>
+                    <p>male
+                        <br>red tabby and white</p>
+                </figure>
+
+                <figure>
+                    <img class="lazyload" data-src="assets/kittens/linguine-min.jpg" alt="LINGUINE">
+                    <!-- <img class="lazyload" data-src="assets/kittens/linguine.jpg" alt=""> -->
+                    <figcaption style="margin-top:0px;">Linguine</figcaption>
+                    <p>female
+                        <br>red tabby and white</p>
+                </figure>
+
+            </div>
+        </div>
+
+        <div id="contact" class="contact">
+            <h1 class="nav-item" style="margin-top:3vw;">Contact Us</h1>
+
+            <h4>*If you're interested in a kitten, or you have any inquiries please use the form below.</h4>
+            <form class="contact-form" method="POST" action="https://formspree.io/cleotheexplorer@gmail.com">
+
+                <div class="contact-details">
+                    <label for="n">Your name*</label>
+                    <br>
+                    <input type="text" placeholder=" John Doe" id="n" name="name" required>
+                    <br>
+
+                    <label for="e">Your email*</label>
+                    <br>
+                    <input type="email" placeholder=" test@mailbox.com" id="e" name="email" required>
+                    <br>
+
+                    <label for="c">Contact number*</label>
+                    <br>
+                    <input type="text" placeholder=" 0999-999-9999" id="c" name="contact_number" required>
+                    <br>
+                </div>
+
+                <div class="message">
+                    <label for="m">Message*</label>
+                    <br>
+                    <textarea name="message" placeholder=" Your message" id="m"></textarea>
+                    <br>
+                    <button type="submit">Send</button>
+                </div>
+
+            </form>
+
+        </div>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+    </script>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/lazysizes@4.1.1/lazysizes.js"></script>
 </body>
 <footer>
-	<div class="footer-contact">
+    <div class="footer-contact">
 
-		<img class="lazyload" data-src="assets/logos/Full_Original.png">
-		<h4>cleotheexplorer@gmail.com<br>www.instagram.com/cleotheexplorer</h4>
-		<li><a href="https://www.facebook.com/lacontessacattery/" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
-    	<li><a href="https://www.instagram.com/cleotheexplorer/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-	</div>
+        <img class="lazyload" data-src="assets/logos/Full_Original.png">
+        <h4>cleotheexplorer@gmail.com<br>www.instagram.com/cleotheexplorer</h4>
+        <li><a href="https://www.facebook.com/lacontessacattery/" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
+        <li><a href="https://www.instagram.com/cleotheexplorer/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+    </div>
 
-	<div class="box8">
-		<figure><img class="lazyload" data-src="assets/revised_cats/Cats-01-min.png" alt=""></figure>
-		<figure><img class="lazyload" data-src="assets/revised_cats/Cats-02-min.png" alt=""></figure>	
-		<figure><img class="lazyload" data-src="assets/revised_cats/Cats-03-min.png" alt=""></figure>	
-		<figure><img class="lazyload" data-src="assets/revised_cats/Cats-04-min.png" alt=""></figure>	
-		<figure><img class="lazyload" data-src="assets/revised_cats/Cats-05-min.png" alt=""></figure>	
-	</div>
+    <div class="box8">
+        <figure><img class="lazyload" data-src="assets/revised_cats/Cats-01-min.png" alt=""></figure>
+        <figure><img class="lazyload" data-src="assets/revised_cats/Cats-02-min.png" alt=""></figure>
+        <figure><img class="lazyload" data-src="assets/revised_cats/Cats-03-min.png" alt=""></figure>
+        <figure><img class="lazyload" data-src="assets/revised_cats/Cats-04-min.png" alt=""></figure>
+        <figure><img class="lazyload" data-src="assets/revised_cats/Cats-05-min.png" alt=""></figure>
+    </div>
 </footer>
-
 
 </html>
