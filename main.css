@@ -33,7 +33,7 @@ a {
 	width:86%;
 	height:12vh;
 	background-color:white;
-	z-index: 200;
+	z-index: 1;
 	-webkit-box-shadow:0px 1px 1px #C0C0C0;
  	-moz-box-shadow:0px 1px 1px #C0C0C0;
  	box-shadow:0px 1px 1px #C0C0C0;
@@ -272,6 +272,7 @@ a {
 
 
 .sold-banner h2{
+	position:absolute;
 	font-family: Helvetica, Verdana;
     color: white;
     padding:1vw;
@@ -279,35 +280,43 @@ a {
     background-color:black;
     border: 1px solid grey;
     opacity: 0.4;
-    width:150%;
     text-align: center;
+    margin:0px;
+    overflow:hidden;
+    width:120%;
+    top:-140px;
+    transform: rotate(-40deg);
+    /*position:relative;*/
 
 }
 
 .sold-banner{
-	position: absolute;
+	position:relative;
 	font-family: Verdana, Geneva, sans-serif;
     color: #FFF;
-    height:62%;
-    left:12%;
-    transform: rotate(-40deg);
-    bottom: 0px;
+    width:100%;
+    /*top:-140px;*/
+    /*overflow:hidden;*/
+    /*transform: rotate(-40deg);*/
+    /*bottom: 0px;*/
     z-index: 1;
-   	object-fit:fill;
+    /*overflow: hidden;*/
 
 }
 
 .rav{
 	position:relative;
+	overflow:hidden;
 }
 
-.rav-fig{
-	z-index:20;
+.ravi{
+	position: relative;
+	overflow: hidden;
 }
+
 
 .rav img{
 	z-index: 1;
-	object-fit:fill;
 }
 
 
@@ -341,11 +350,11 @@ figure figcaption{
 }
 
 .contact-form label{
-	font-size: 3vw;
+	font-size: 2vw;
 }
 
 .contact-form input{
-	font-size: 1.5vw;
+	font-size: 1.2vw;
 	width:80%;
 	border: 1px solid grey;
 	border-radius: 5px;
@@ -361,7 +370,7 @@ figure figcaption{
 }
 
 .contact-form textarea {
-	font-size: 1.5vw;
+	font-size: 1.2vw;
 	height: 12vw;
 	border: 1px solid grey;
 	border-radius: 5px;
@@ -386,7 +395,11 @@ footer {
 	padding-right:5vw;
 	padding-bottom:5vw;
 	/*#darksalmon*/
-	background:#E9967A; 
+	/*background:#E9967A; */
+	/*lightsalmon*/
+	background:#FFA07A;
+	/*pink */
+	/*background:#FFC0CB;*/
 
 	overflow:hidden;
 	font-size:2vw;
@@ -447,6 +460,18 @@ footer li a{
 
 
 @media(max-width: 768px) {
+
+
+	body{
+		margin-left:0px;
+		margin-right:0px;
+	}
+
+	.navigation{
+		width:100%;
+	}
+
+
 	.inner-box-template img{
 		padding:2% 2% 2% 2%;
 		height:22vw;
@@ -477,9 +502,6 @@ footer li a{
 		font-size: 3vw;
 	}
 
-	.about span {
-		font-size: 1vw;
-	}
 	
 	.box-template figure p {
 		font-size:1.8vw;
@@ -497,7 +519,6 @@ footer li a{
 
 
 }
-
 
 
 @media(max-width: 320px) {
