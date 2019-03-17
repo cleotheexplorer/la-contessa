@@ -84,7 +84,7 @@ function display_modal(container_class){
 
 display_modal("box2")
 display_modal("box-template")
-
+display_modal("box-template-two")
 
 
 // // Get the modal
