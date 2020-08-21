@@ -15,9 +15,11 @@ body{
 	margin-right:7%;
 }
 
-img.headerlogo {
-	width:13vw;
-	height:auto;
+.headerlogo > img {
+	object-fit: contain;
+	display:inline-block;
+	width:150px;
+	height: auto;
 }
 
 a {
@@ -31,7 +33,7 @@ a {
 	position: fixed;
 	top:0;
 	width:86%;
-	height:12vh;
+	height:80px;
 	background-color:white;
 	z-index: 1;
 	-webkit-box-shadow:0px 1px 1px #C0C0C0;
@@ -41,6 +43,7 @@ a {
 
 .navigation ul{
 	margin:0px;
+	padding:0px;
 }
 
 .navigation ul li{
@@ -61,7 +64,7 @@ a {
 }
 
 .main{
-	margin-top:12vh;
+	margin-top:80px;
 	font-family: "majalla";
 }
 
@@ -178,7 +181,7 @@ a {
 	display: block;
 	width:40%;
 	margin-left: auto;
-    margin-right: auto;
+  margin-right: auto;
 }
 
 .box4 img{
@@ -485,6 +488,32 @@ footer li a{
 	width:60%;
 }
 
+@media(max-width: 1100px) {
+
+
+	body{
+		margin-left:0px;
+		margin-right:0px;
+	}
+
+	.navigation{
+		width:100%;
+	}
+
+	.left{
+		display:none;
+	}
+
+	.about p {
+		font-size: 3vw;
+	}
+
+	.box-template figure p {
+		font-size:1.8vw;
+	}
+
+}
+
 
 @media(max-width: 768px) {
 
@@ -513,14 +542,6 @@ footer li a{
 		grid-template-rows: repeat(2, min-content);
 	}
 
-	.navigation ul{
-		padding:0px 10px 10px 0px;
-	}
-
-	img.headerlogo {
-	    width:20vw;
-	}
-
 	.left{
 		display:none;
 	}
@@ -529,7 +550,6 @@ footer li a{
 		font-size: 3vw;
 	}
 
-	
 	.box-template figure p {
 		font-size:1.8vw;
 	}
